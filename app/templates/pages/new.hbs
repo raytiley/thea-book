@@ -1,0 +1,21 @@
+<div>
+	<label>Title</label>
+	{{input value=title}}
+</div>
+
+<div>
+	<label>Example</label>
+	{{textarea value=example}}
+</div>
+
+	<div>
+	<label>Content Left</label>
+	{{textarea value=leftContent}}
+</div>
+
+<div>
+	<label>Content Right</label>
+	{{textarea value=rightContent}}
+</div>
+
+<button {{action 'save' this}}>Save</button>

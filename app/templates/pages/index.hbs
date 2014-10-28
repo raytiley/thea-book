@@ -1,0 +1,9 @@
+<h1>Pick a Page</h1>
+
+{{link-to 'Create New Page' 'pages.new'}}
+
+<ul>
+	{{#each}}
+	  <li>{{link-to title 'pages.view' this}}</li>
+	{{/each}}
+</ul>
